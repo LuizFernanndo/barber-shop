@@ -418,19 +418,23 @@ div.testimonials-img img {
 
 button.next2 {
     height: 40px;
-    width: 40px;
+    max-width: 40px;
+    width: 100%;
     background-color: transparent;
     border: 1px solid rgb(173, 147, 114);
-    margin-right: 100px;
+    margin-left: 100px;
+    margin-right: 15px;
     color: white;
 }
 
 button.prev2 {
     height: 40px;
-    width: 40px;
+    max-width: 40px;
+    width: 100%;
     background-color: transparent;
     border: 1px solid rgb(173, 147, 114);
-    margin-left: 100px;
+    margin-right: 100px;
+    margin-left: 15px;
     color: white;
 }
 

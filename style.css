@@ -6,7 +6,7 @@
 }
 
 body {
-    margin-bottom: 300px;
+    /* margin-bottom: 300px; */
     background-color: rgb(27, 27, 27);
 }
 
@@ -436,12 +436,23 @@ button.prev2 {
 
 /* -------------------- Footer -------------------- */
 
+footer {
+    background-color: black;
+    height: 400px;
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
 div.div-footer {
     display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
     max-width: 960px;
     width: 100%;
-    border: 1px solid white;
-    margin: 0 auto;
+    margin-top: 100px;
     font-family: 'Pippins', sans-serif;
 }
 
@@ -449,15 +460,91 @@ div.div-footer {
 .our-contacts,
 .all-services,
 .newsletter {
-    width: 300px;
-    border: 3px solid lightgray;
+    width: 200px;
     text-align: center;
-    margin: 5px 20px;
+    margin: 5px 5px;
 }
 
 div.div-footer h1 {
     color: white;
     font-weight: 100;
+}
+
+.hr-footer {
+    border: 1px solid rgb(165, 148, 122);
+    width: 40px;
+    display: block;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+div.div-footer p {
+    margin: 5px 0;
+    font-size: 15px;
+    color: rgb(141, 141, 141);
+    font-weight: 300;
+}
+
+.newsletter h1 {
+    margin-bottom: 50px;
+}
+
+.newsletter p {
+    margin: 20px 0;
+}
+
+input[type=email] {
+    width: 150px;
+    height: 40px;
+    display: inline-block;
+    background: transparent;
+    border: 1px solid lightgray;
+    outline: none;
+    padding-left: 5px;
+    font-size: 12px;
+    font-weight: bold;
+    font-style: italic;
+    position: relative;
+}
+
+.newsletter-button {
+    width: 45px;
+    height: 40px;
+    background-color: rgb(172, 147, 116);
+    border: none;
+    position: relative;
+    top: 7px;
+    left: -5px;
+}
+
+.newsletter-button svg {
+    width: 15px;
+    color: white;
+}
+
+.footer-bg2 {
+    width: 100%;
+    background-color: rgb(27, 27, 27);
+    margin-top: 100px;
+}
+
+.div-footer2 {
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100px;
+    margin-top: 100px;
+    width: 100%;
+    margin: 0 auto;
+    max-width: 800px;
+    font-family: 'Pippins', sans-serif;
+    font-size: 13px;
+}
+
+.feather {
+    margin: 0px 10px;
+    width: 15px;
 }
 
 

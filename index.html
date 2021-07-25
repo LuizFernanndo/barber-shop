@@ -75,6 +75,8 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@900&display=swap" rel="stylesheet">
 
+    <script src="https://unpkg.com/feather-icons"></script>
+
     <link rel="stylesheet" href="style.css">
 </head>
 
@@ -257,6 +259,8 @@
                 <div class="navigation">
                     <h1>Navigation</h1>
 
+                    <hr class="hr-footer">
+
                     <p>About Barber Shop</p>
                     <p>Our Gallery</p>
                     <p>Our Latest News</p>
@@ -268,6 +272,8 @@
 
                     <h1>Our Contacts</h1>
 
+                    <hr class="hr-footer">
+
                     <p>999 Ward Divide Suits 555,</p>
                     <p>New York, New york, USA </p>
                     <p>Tel. 9 (999) 999 9999</p>
@@ -277,6 +283,8 @@
 
                 <div class="all-services">
                     <h1>All Services</h1>
+
+                    <hr class="hr-footer">
 
                     <p>Hairstyle</p>
                     <p>Trimming</p>
@@ -290,16 +298,35 @@
 
                     <p>We promise not to spam!</p>
 
-                    <input type="email" name="email" id="email">
-                    <input type="submit" nome="enviar" value="Enviar" id="enviar">
+                    <input type="email" name="email" id="email" placeholder="EMAIL ADDRESS">
+                    <button class="newsletter-button">
+                        <i data-feather="edit-2"></i>
+                    </button>
 
                 </div>
 
             </div>
 
         </section>
+        <section class="footer-bg2">
+            <div class="div-footer2">
+                <p>© Copyright 2018 All Rights Reserved</p>
+
+                <div class="div-svg">
+                    <i data-feather="facebook"></i>
+                    <i data-feather="twitter"></i>
+                    <i data-feather="mail"></i>
+                    <i data-feather="instagram"></i>
+                    <i data-feather="linkedin"></i>
+                </div>
+            </div>
+        </section>
     </footer>
 
+
+    <script>
+        feather.replace()
+    </script>
 </body>
 
 </html>

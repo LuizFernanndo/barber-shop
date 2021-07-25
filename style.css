@@ -324,16 +324,6 @@ div.testimonials-img img {
     font-size: 8px;
 }
 
-.hr-button {
-    position: absolute;
-    z-index: 11;
-    border-color: white;
-    width: 1px;
-    height: 55px;
-    left: 50.2%;
-    top: 91.9%;
-}
-
 
 /* -------------------- Section Serviços -------------------- */
 
@@ -353,8 +343,15 @@ div.testimonials-img img {
 .servicos {
     background-color: rgb(27, 27, 27);
     display: flex;
-    justify-content: center;
+    justify-content: space-evenly;
     align-items: center;
+}
+
+.div-servicos {
+    display: flex;
+    max-width: 960px;
+    justify-content: center;
+    flex-wrap: wrap;
 }
 
 .servicos h1 {
@@ -422,9 +419,8 @@ button.next2 {
     width: 100%;
     background-color: transparent;
     border: 1px solid rgb(173, 147, 114);
-    margin-left: 100px;
-    margin-right: 15px;
     color: white;
+    margin: 0 10px;
 }
 
 button.prev2 {
@@ -433,9 +429,35 @@ button.prev2 {
     width: 100%;
     background-color: transparent;
     border: 1px solid rgb(173, 147, 114);
-    margin-right: 100px;
-    margin-left: 15px;
     color: white;
+    margin: 0 10px;
+}
+
+
+/* -------------------- Footer -------------------- */
+
+div.div-footer {
+    display: flex;
+    max-width: 960px;
+    width: 100%;
+    border: 1px solid white;
+    margin: 0 auto;
+    font-family: 'Pippins', sans-serif;
+}
+
+.navigation,
+.our-contacts,
+.all-services,
+.newsletter {
+    width: 300px;
+    border: 3px solid lightgray;
+    text-align: center;
+    margin: 5px 20px;
+}
+
+div.div-footer h1 {
+    color: white;
+    font-weight: 100;
 }
 
 

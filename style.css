@@ -1,4 +1,4 @@
-@charset "UTF-8";
+﻿@charset "UTF-8";
 * {
     margin: 0;
     padding: 0;
@@ -452,7 +452,7 @@ div.div-footer {
     justify-content: center;
     max-width: 960px;
     width: 100%;
-    margin-top: 100px;
+    /* margin-top: 100px; */
     font-family: 'Pippins', sans-serif;
 }
 
@@ -462,7 +462,7 @@ div.div-footer {
 .newsletter {
     width: 200px;
     text-align: center;
-    margin: 5px 5px;
+    margin: 25px 15px;
 }
 
 div.div-footer h1 {
@@ -542,17 +542,35 @@ input[type=email] {
     font-size: 13px;
 }
 
+.div-footer2 p {
+    margin: 0 10px;
+}
+
 .feather {
     margin: 0px 10px;
     width: 15px;
 }
 
 
-/* @@@@@@@@@@@@@@@ Responsividade @@@@@@@@@@@@@@@ */
+/* @@@@@@@@@@@@@@@@@@@@@@@@@ Responsividade @@@@@@@@@@@@@@@@@@@@@@@@@ */
+
+@media (max-width: 910px) {
+    .nav-menu {
+        display: none;
+    }
+}
+
+@media (max-width: 840px) {
+    div.div-footer {
+        margin: 10px;
+    }
+}
 
 
 /* Responsividade 
 
 1° break point do header - 910px
+
+2° break point do main - 510px
 
 */
